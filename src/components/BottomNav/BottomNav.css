@@ -1,0 +1,10 @@
+.footer {
+    height: 40px;
+}
+.footer > p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 0;
+    text-align: center;
+}

@@ -1,0 +1,67 @@
+.wrapper-about {
+    padding: 10% 5%;
+    justify-content: center;
+}
+
+.about {
+    display: flex;
+}
+
+.about-logo {
+    order: 1;
+    position: relative;
+    width: 450px;
+    height: 450px;
+}
+
+#logo1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#logo2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+#logo3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#block4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40px; height: 40px;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+.about-des {
+    order: 2;
+    padding: 20px;
+    width: 550px;
+    height: 450px;
+}
+
+.about-des > p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+@media (max-width: 950px) {
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-des {
+        width: auto;
+        height: auto;
+    }
+}

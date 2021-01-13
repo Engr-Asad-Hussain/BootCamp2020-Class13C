@@ -1,0 +1,25 @@
+.contact {
+    padding: 1% 15%;
+}
+
+.form * {
+    display: block;
+}
+
+.form > label {
+    font-size: 18px;
+}
+
+.form > input, textarea {
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.form > button {
+    padding: 10px;
+    width: 150px;
+    font-size: 15px; 
+}
